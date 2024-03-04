@@ -7,6 +7,10 @@ li:hover{
     cursor: pointer;
 }
 
+a{
+    all: unset;
+}
+
 .menu{
     display: flex;
     gap: 25px;

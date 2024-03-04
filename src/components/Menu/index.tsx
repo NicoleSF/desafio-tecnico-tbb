@@ -27,7 +27,9 @@ export const Menu = ({ menuOpen, onClose }: MenuProps) => {
                         <aside>
                             <div className="container">
                                 <div className="logo-container">
-                                    <img src={logo} alt="logo da lego"/>
+                                    <button onClick={onClose} className="button-logo">
+                                        <img src={logo} alt="logo da lego"/>
+                                    </button>
                                     <button className="button-close" onClick={onClose}>X</button>
                                 </div>
                                 <div className="container-buttons">
@@ -51,14 +53,14 @@ export const Menu = ({ menuOpen, onClose }: MenuProps) => {
                                 <p>Themes</p>
                             </div>
                             <div className="container-menu">
-                                <p>Gifting</p>
-                                <p>Travel</p>
-                                <p>Adults Welcome</p>
-                                <p>Art & Home Decor</p>
-                                <p>Space</p>
-                                <p>Pop Culture</p>
-                                <p>Toddlers</p>
-                                <p>Real World Role Playing</p>
+                                <p className="menu-item">Gifting</p>
+                                <p className="menu-item">Travel</p>
+                                <p className="menu-item">Adults Welcome</p>
+                                <p className="menu-item">Art & Home Decor</p>
+                                <p className="menu-item">Space</p>
+                                <p className="menu-item">Pop Culture</p>
+                                <p className="menu-item">Toddlers</p>
+                                <p className="menu-item">Real World Role Playing</p>
                             </div>
                         </aside>
                         <section className="grid-buttons">

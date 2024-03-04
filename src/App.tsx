@@ -35,10 +35,10 @@ const navLinks = [
   'Gifting',
   'Travel',
   'Adults Welcome',
-  'Art & Home Decor',
+  'Art & Home Décor',
   'Space',
   'Pop Culture',
-  'Toddlers',
+  'Todlers',
   'Real World Role Playing'
 ]
 
@@ -75,41 +75,41 @@ const navIcons = [
         </section>
         <div className="content-principal">
           
-          <section className="container-section">
-            <SectionTextLeft
-              title='GIFTING'
-              paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-              cardTitle='Toys perfect for birthday gift-giving season in Spring'
-              cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
-              imgPath={imgChildMom}
-              imgAlt='mulher e criança olhando para o celular'
-            />
-            <SectionTextRight
-              imgPath={imgMom}
-              imgAlt='mulher segurando um avião de lego'
-              cardTitle='Gifts for Mom'
-              cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
-            />
+          <section className="container-section" id="Gifting">
+              <SectionTextLeft
+                title='GIFTING'
+                paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                cardTitle='Toys perfect for birthday gift-giving season in Spring'
+                cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
+                imgPath={imgChildMom}
+                imgAlt='mulher e criança olhando para o celular'
+              />
+              <SectionTextRight
+                imgPath={imgMom}
+                imgAlt='mulher segurando um avião de lego'
+                cardTitle='Gifts for Mom'
+                cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
+              />
             <hr className="hr-pink"/>
           </section>
-          <section className="container-section">
-            <SectionTextLeft
-                title='TRAVEL'
-                paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                cardTitle='Travel the world no matter where you are. No Passport needed.'
+          <section className="container-section" id="Travel">
+              <SectionTextLeft
+                  title='TRAVEL'
+                  paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                  cardTitle='Travel the world no matter where you are. No Passport needed.'
+                  cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
+                  imgPath={imgTravel}
+                  imgAlt='maquete do coliseu'
+                />
+              <SectionTextRight
+                imgPath={imgBoyTravel}
+                imgAlt='menino segurando um brinquedo'
+                cardTitle='Fun accessories to take with you on your travels or keep kids entertained'
                 cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
-                imgPath={imgTravel}
-                imgAlt='maquete do coliseu'
               />
-            <SectionTextRight
-              imgPath={imgBoyTravel}
-              imgAlt='menino segurando um brinquedo'
-              cardTitle='Fun accessories to take with you on your travels or keep kids entertained'
-              cardParagraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque nulla vitae mi scelerisque vulputate. Aenean ultrices leo eget lacus maximus, vitae feugiat.'
-            />
             <hr className="hr-blue"/>
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Adults Welcome">
             <SectionTextLeft
                   title='ADULTS WELCOME'
                   paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -120,7 +120,7 @@ const navIcons = [
             />
             <hr className="hr-yellow"/>
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Art & Home Décor">
             <SectionTextRight
                 titleRight='ART & HOME DÉCOR'
                 paragraphRight='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -131,7 +131,7 @@ const navIcons = [
             />
             <hr/>
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Space">
             <SectionTextLeft
                   title='SPACE'
                   paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -142,7 +142,7 @@ const navIcons = [
             />
             <hr/>
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Pop Culture">
             <SectionTextRight
                   titleRight='POP CULTURE'
                   paragraphRight='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -153,7 +153,7 @@ const navIcons = [
             />
           <hr/>
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Todlers">
             <SectionTextLeft
                 title='TODLERS'
                 paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -170,7 +170,7 @@ const navIcons = [
             />
           <hr className="hr-red"/> 
           </section>
-          <section className="container-section">
+          <section className="container-section" id="Real World Role Playing">
             <SectionTextLeft
                   title='REAL WORLD ROLE PLAYING'
                   paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'

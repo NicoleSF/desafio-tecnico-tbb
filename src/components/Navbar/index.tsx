@@ -15,7 +15,7 @@ export const Navbar= ({ items, navIcons }: NavbarProps) => {
         <nav className="menu">
             <ul className='nav-list'>
               {items.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index}><a href={`#${item}`}>{item}</a></li>
               ))}
             </ul>
             <div className="second-menu">

@@ -1,27 +1,13 @@
 import './App.css';
-import imgChildMom from "./assets/mom_child.png";
-import imgMom from "./assets/mom.png";
-import imgTravel from "./assets/travel.png";
-import imgBoyTravel from "./assets/boy_travel.png";
-import imgSonic from "./assets/sonic.png";
-import imgFlower from "./assets/flower.png";
-import imgSpaceship from "./assets/spaceship.png";
-import imgModels from "./assets/models.png";
-import imgDadSon from "./assets/dad_son.png";
-import imgChildren from "./assets/children.png";
-import imgBoy from "./assets/boy_play.png";
-import imgToys from "./assets/toys.png";
-import logo from "./assets/brand_logo.png";
-import menu from "./assets/icon_menu.png";
-
 import { PiMessengerLogo } from "react-icons/pi";
 import { PiShoppingBag } from "react-icons/pi";
 import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { useState } from 'react';
-import { Menu } from './components/Menu';
 import { Navbar } from './components/Navbar';
 import { SectionTextLeft } from './components/SectionTextLeft';
 import { SectionTextRight } from './components/SectionTextRight';
+import { logo, menu, imgChildMom, imgMom, imgTravel, imgBoyTravel, imgSonic, imgFlower, imgSpaceship, imgModels, imgDadSon, imgChildren, imgBoy, imgToys } from ".";
+import { Menu } from "./components/Menu";
 
 export function App() {
  

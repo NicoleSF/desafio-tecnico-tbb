@@ -1,17 +1,8 @@
 import "./styles.css";
-import logo from "../../assets/brand_logo.png";
 import { PiHouse } from "react-icons/pi";
 import { PiShoppingBag } from "react-icons/pi";
 import { PiMessengerLogo } from "react-icons/pi";
-import imgArchitecture from "../../assets/architecture.png";
-import imgCity from "../../assets/city.png";
-import imgCreator from "../../assets/creator.png";
-import imgDots from "../../assets/dots.png";
-import imgDuplo from "../../assets/duplo.png";
-import imgFriends from "../../assets/friends.png";
-import imgIdea from "../../assets/ideas.png";
-import imgMinifigures from "../../assets/minifigures.png";
-import imgTechnic from "../../assets/technic.png";
+import { imgArchitecture, imgCity, imgCreator, imgDots, imgDuplo, imgFriends, imgIdea, imgMinifigures, imgTechnic, logo } from "./imports";
 
 type MenuProps = {
     menuOpen: boolean;

@@ -1,0 +1,42 @@
+li {
+  list-style: none;
+}
+
+li:hover{
+    color: #006CB7;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-menu{
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.icons-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-menu > p:hover{
+    color: #006CB7;
+    cursor: pointer;
+}
+
+@media (max-width: 988px) {
+    .nav-list{
+     display: none;
+    }
+   }

@@ -1,0 +1,117 @@
+.header-container{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  font-size: 14px;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.header-container img{
+  opacity: 1;
+}
+
+.header-menu{
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+
+.categories{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.banner{
+  background-color: #B1B1B1;
+  height: 840px;
+  padding: 1px 30px;
+
+}
+
+.text-tag{
+  display: flex;
+  margin-top: 350px;
+  margin-bottom: 250px;
+  justify-content: center;
+}
+
+.container-banner{
+  position: absolute;
+  padding: 0 60px;
+  width: 88%;
+}
+
+.text-banner{
+  display: flex;
+  align-items: end;
+}
+
+.scroll-down{
+  display: flex;
+  justify-content: end;
+}
+
+
+.title-banner{
+  font-size: 60px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 74%;
+}
+
+.container-section{
+  padding-top: 60px;
+}
+
+.footer{
+  color: #808080;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.hr-pink{
+  border-color: #FC36A5;
+}
+
+.hr-blue{
+  border-color: #006CB7;
+}
+
+.hr-yellow{
+  border-color: #FFD500;
+}
+
+.hr-red{
+  border-color: #E3000B;
+}
+
+
+@media (max-width: 988px) {
+  .text-banner h1{
+    color: #000000;
+    margin-top: 8px;
+  }
+
+  .content-principal{
+    margin-top: 300px;
+  }
+
+  .banner{
+    height: 600px;
+  }
+}
+
+@media (max-width: 772px) {
+
+  .content-principal{
+    margin-top: 417px;
+  }
+}

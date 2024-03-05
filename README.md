@@ -17,7 +17,7 @@ git clone https://github.com/NicoleSF/desafio-tecnico-tbb.git
 npm install
 ```
 
-- Assim que a instalação terminar, para rodar a aplicação, basta digitar no terminal:
+- Assim que a instalação terminar, para rodar a aplicação basta digitar no terminal:
 
 ```
 npm run dev
@@ -25,6 +25,6 @@ npm run dev
 
 ## 📓 Tecnologias utilizadas
 
-- Para este desafio técnico, utilizei Vite + React, react-icons, typescript e CSS.
+- Para este desafio técnico utilizei Vite + React, react-icons, typescript e CSS.
 
 

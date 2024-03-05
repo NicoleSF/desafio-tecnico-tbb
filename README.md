@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# 💻 Desafio Técnico The Brooklyn Brothers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como rodar este desafio localmente?
 
-Currently, two official plugins are available:
+- Na página principal do repositório, clique no botão verde '<> Code' e copie o link HTTPS, como mostrado abaixo:
+![Imagem do local para copiar o link do repositório](./src/assets/img_1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Após, ir em um local de preferência do seu computador e iniciar o git bash. Dentro dele, colocar:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone https://github.com/NicoleSF/desafio-tecnico-tbb.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Depois de clonado o repositório, abrir o projeto no vscode e, no terminal, instalar as dependências com:
+
+```
+npm install
+```
+
+- Assim que a instalação terminar, para rodar a aplicação, basta digitar no terminal:
+
+```
+npm run dev
+```
+
+## 📓 Tecnologias utilizadas
+
+- Para este desafio técnico, utilizei Vite + React, react-icons, typescript e CSS.
+
+
